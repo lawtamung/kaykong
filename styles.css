@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.cart-table th, .cart-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.cart-table th {
+    background-color: #f7f7f7;
+}
+
+.quantity-input {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn-update, .btn-remove, .btn-checkout {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-update:hover, .btn-remove:hover, .btn-checkout:hover {
+    background-color: #45a049;
+}
+
+.btn-remove {
+    background-color: #f44336;
+}
+
+.btn-remove:hover {
+    background-color: #e53935;
+}
+
+.cart-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cart-footer h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.cart-footer .btn-checkout {
+    padding: 10px 20px;
+    background-color: #2196F3;
+    text-decoration: none;
+}
+
+.cart-footer .btn-checkout:hover {
+    background-color: #1976D2;
+}
+/* การตั้งค่าโดยรวม */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.profile-info {
+    margin-top: 20px;
+}
+
+.profile-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.profile-info strong {
+    color: #444;
+}
+
+.profile-actions {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn-edit-profile {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-edit-profile:hover {
+    background-color: #45a049;
+}
+
+/* การจัดรูปแบบเมื่อแสดงประวัติการสั่งซื้อ */
+h2 {
+    color: #333;
+    font-size: 22px;
+    margin-top: 40px;
+    text-align: center;
+}
